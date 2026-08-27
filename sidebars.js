@@ -7,5 +7,6 @@ module.exports = {
     'guide/runtime-components',
     'guide/optimization',
     'guide/maintenance',
+    'guide/other-guides',
   ],
 };

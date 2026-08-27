@@ -7,6 +7,9 @@
   overflow: hidden;
   background: radial-gradient(circle at 75% 15%, var(--guide-glow), transparent 32rem),
     linear-gradient(135deg, var(--guide-hero-start) 0%, var(--guide-hero-end) 100%);
+  background-size: 140% 140%;
+  background-attachment: fixed;
+  animation: backgroundDrift 75s ease-in-out infinite alternate;
   color: var(--guide-hero-text);
 }
 
@@ -18,6 +21,7 @@
     linear-gradient(90deg, var(--guide-grid) 1px, transparent 1px);
   background-size: 3.5rem 3.5rem;
   mask-image: linear-gradient(to bottom, black, transparent 85%);
+  animation: gridDrift 90s linear infinite;
 }
 
 .heroContent {
@@ -58,6 +62,26 @@
   gap: 1rem;
 }
 
+@keyframes backgroundDrift {
+  from {
+    background-position: 0% 0%;
+  }
+
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes gridDrift {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 3.5rem 3.5rem;
+  }
+}
+
 .steps {
   display: flex;
   gap: 1.5rem;
@@ -77,5 +101,12 @@
   .steps {
     margin-top: 3rem;
     gap: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroBanner,
+  .grid {
+    animation: none;
   }
 }

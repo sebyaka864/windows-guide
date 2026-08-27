@@ -48,6 +48,11 @@
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);
 }
 
+[data-theme='dark'] .navbar,
+[data-theme='dark'] .footer {
+  color: var(--ifm-font-color-base);
+}
+
 body {
   text-transform: lowercase;
   background: var(--ifm-background-color);

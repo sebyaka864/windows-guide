@@ -20,9 +20,6 @@ export default function Home() {
             <Link className="button button--primary button--lg" to="/intro">
               begin here
             </Link>
-            <Link className="button button--outline button--secondary button--lg" to="/guide/before-you-begin">
-              get prepared
-            </Link>
           </div>
           <div className={styles.steps}>
             <span>01 · prepare</span>

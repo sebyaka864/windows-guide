@@ -65,11 +65,13 @@ html,
 }
 
 .menu__list-item-collapsible {
-  color: #a7a7ae;
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  margin-top: 1rem;
+  display: none;
+}
+
+.theme-doc-sidebar-menu > .menu__list > .menu__list-item + .menu__list-item {
+  border-top: 1px solid #303035;
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
 }
 
 .menu__link--active:not(.menu__link--sublist) {
@@ -90,6 +92,11 @@ html,
 .footer {
   background: #1b1b1f;
   color: #ffffff;
+}
+
+.footer__copyright {
+  font-size: 0.72rem;
+  opacity: 0.9;
 }
 
 .docMainContainer {
@@ -157,7 +164,7 @@ body.docs-doc-id-intro .main-wrapper::before {
 }
 
 .scrollProgress {
-  background: #1b1b1f;
+  background: #09090c;
   height: 5px;
   inset: var(--ifm-navbar-height) 0 auto;
   position: fixed;

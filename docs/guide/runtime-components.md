@@ -18,12 +18,14 @@ finish windows and microsoft store updates first. restart if asked, then continu
 
 ## install microsoft visual c++ redistributables
 
-Install a runtime only when an application names it in an error message or its official requirements. For most current software, the [latest supported Visual C++ redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) is enough. Install both x64 and x86 on a 64-bit Windows PC when the application is 32-bit or you are unsure.
+Open **Command Prompt** and paste the following command. It installs supported x86 and x64 Visual C++ redistributables with winget.
 
-Avoid all-in-one runtime packs and long copy-paste commands. They make it difficult to see what changed and can install obsolete packages you do not need. If an older game specifically requires a 2005–2013 runtime, use the download linked by its publisher or Microsoft, then test the game before adding anything else.
+```bat
+winget install --id=Microsoft.VCRedist.2005.x86 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2005.x64 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2008.x86 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2008.x64 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2010.x86 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2010.x64 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2012.x86 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2012.x64 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2013.x86 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2013.x64 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2015+.x86 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2015+.x64 -e --force -h --accept-package-agreements
+```
 
-:::tip keep troubleshooting narrow
-Install one missing component, restart if requested, and test the affected app. A missing-DLL error is evidence for a targeted fix—not a reason to install every runtime at once.
+:::caution read the prompt before continuing
+The command installs software packages. Review winget's output and only continue if you are happy with what it is installing.
 :::
 
 ## additional components
@@ -32,4 +34,4 @@ Install one missing component, restart if requested, and test the affected app. 
 - [microsoft xna framework 4.0 redistributable](https://download.microsoft.com/download/a/c/2/ac2c903b-e6e8-42c2-9fd7-bebac362a930/xnafx40_redist.msi)
 - [directx end-user runtime web installer](https://download.microsoft.com/download/1/7/1/1718ccc4-6315-4d8e-9543-8e28a4e18c4c/dxwebsetup.exe)
 
-Download these only when an application requires them. Confirm that the download address is Microsoft or the component's official publisher, then restart before testing the app again.
+Download these only when an application requires them. After installation, restart before testing the app again.

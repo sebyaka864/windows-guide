@@ -9,7 +9,7 @@
   --ifm-background-color: #050507;
   --ifm-background-surface-color: #111113;
   --ifm-font-color-base: #f4eff8;
-  --ifm-navbar-background-color: #09090c;
+  --ifm-navbar-background-color: #1b1b1f;
   --ifm-footer-background-color: #050507;
   --ifm-menu-color: #cfc5d9;
   --ifm-menu-color-active: #e4e4e8;
@@ -36,6 +36,7 @@ html,
 }
 
 .navbar {
+  background: #1b1b1f;
   border-bottom: 1px solid #403248;
   box-shadow: 0 0.35rem 1.8rem rgba(0, 0, 0, 0.2);
 }
@@ -92,11 +93,13 @@ html,
 .footer {
   background: #1b1b1f;
   color: #ffffff;
+  padding: 1rem 0;
 }
 
 .footer__copyright {
   font-size: 0.72rem;
   opacity: 0.9;
+  margin: 0;
 }
 
 .docMainContainer {

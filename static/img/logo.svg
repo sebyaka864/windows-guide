@@ -2,13 +2,13 @@
   <title>the windows guide</title>
   <defs>
     <linearGradient id="purple" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#d8c2ff"/>
-      <stop offset=".48" stop-color="#9d5cff"/>
-      <stop offset="1" stop-color="#6225c4"/>
+      <stop stop-color="#eeeeF0"/>
+      <stop offset=".48" stop-color="#b8b8c2"/>
+      <stop offset="1" stop-color="#777781"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="17" fill="#120b1d"/>
+  <rect width="64" height="64" rx="17" fill="#1b1b1f"/>
   <path d="M13 16.7 29 14.5v16.2H13V16.7Zm20 13.9V14l18-2.5v19.2H33Zm-20 3.7h16v16.2l-16-2.2V34.3Zm20 0h18v18.2l-18-2.5V34.3Z" fill="url(#purple)"/>
-  <circle cx="50" cy="51" r="6" fill="#120b1d"/>
+  <circle cx="50" cy="51" r="6" fill="#1b1b1f"/>
   <path d="m47.5 51 1.7 1.8 3.4-4" fill="none" stroke="#f7f1ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
 </svg>

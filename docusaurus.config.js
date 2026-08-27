@@ -3,8 +3,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Windows Guide',
-  tagline: 'Your all-in-one Windows optimization guide',
+  title: 'the windows guide',
+  tagline: 'a calm, practical windows optimization guide',
   favicon: 'img/logo.svg',
 
   url: 'https://sebyaka864.github.io',
@@ -47,12 +47,12 @@ const config = {
   themeConfig: {
     colorMode: { respectPrefersColorScheme: true },
     navbar: {
-      title: 'Windows Guide',
-      logo: { alt: 'Windows Guide Logo', src: 'img/logo.svg' },
+      title: 'the windows guide',
+      logo: { alt: 'the windows guide logo', src: 'img/logo.svg' },
       items: [
         {
           href: 'https://github.com/sebyaka864/windows-guide',
-          label: 'GitHub',
+          label: 'github',
           position: 'right',
         },
       ],
@@ -60,7 +60,7 @@ const config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} Sebyaka864. Built with Docusaurus.`,
+      copyright: `copyright © ${new Date().getFullYear()} sebyaka864. built with docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -2,7 +2,7 @@ module.exports = {
   guideSidebar: [
     {
       type: 'category',
-      label: 'The Windows Guide',
+      label: 'the windows guide',
       collapsed: false,
       items: [
         'intro',

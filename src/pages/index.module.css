@@ -30,6 +30,24 @@
   writing-mode: vertical-rl;
   white-space: pre;
   animation: matrixScroll var(--matrix-duration) linear var(--matrix-delay) infinite;
+  filter: drop-shadow(0 0 0.45rem rgba(168, 85, 247, 0.7));
+}
+
+.matrixRain span:nth-child(3n) { opacity: 0.55; }
+.matrixRain span:nth-child(3n + 1) { opacity: 0.8; }
+.matrixRain span:nth-child(4n) { letter-spacing: 0.16em; }
+
+.beginButton {
+  border: 1px solid #b8b8c2;
+  box-shadow: 0 0 0 1px rgba(168, 85, 247, 0.35), 0 0 1.4rem rgba(168, 85, 247, 0.3);
+  margin-top: 2rem;
+  transition: box-shadow 180ms ease, transform 180ms ease;
+}
+
+.beginButton:hover,
+.beginButton:focus-visible {
+  box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.65), 0 0 2rem rgba(168, 85, 247, 0.5);
+  transform: translateY(-2px);
 }
 
 @keyframes matrixScroll {
@@ -52,14 +70,6 @@
   width: min(100%, 48rem);
   position: relative;
   text-align: left;
-}
-
-.eyebrow {
-  color: var(--guide-eyebrow);
-  font-weight: 700;
-  letter-spacing: 0.13em;
-  font-size: 0.78rem;
-  margin: 0 0 1.25rem;
 }
 
 .heroContent h1 {

@@ -11,10 +11,10 @@ export default function Home() {
       <main className={styles.heroBanner}>
         <div className={styles.grid} />
         <section className={styles.heroContent}>
-          <p className={styles.eyebrow}>windows optimization, explained simply.</p>
+          <p className={styles.eyebrow}>less clutter. more control.</p>
           <h1>the windows guide</h1>
           <p className={styles.lede}>
-            a simple guide to a cleaner, quicker, more dependable pc.
+            make your pc feel fresh again — clean setup, useful updates, and changes that actually matter.
           </p>
           <div className={styles.buttons}>
             <Link className="button button--primary button--lg" to="/intro">

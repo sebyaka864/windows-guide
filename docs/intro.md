@@ -2,30 +2,31 @@
 sidebar_position: 1
 ---
 
-# the windows guide
+# start here
 
-An approachable, reversible-first guide to a clean, fast, and dependable Windows PC.
+the simple path to a clean, quick, and dependable windows pc.
 
 :::important read the whole page
 Every instruction in this guide has a purpose. Read each step before changing a setting, and keep notes of anything you customize.
 :::
 
-## what this guide covers
+## the guide
 
-- Preparing files and recovery options before making changes
-- Reinstalling Windows from official Microsoft media
-- Updating drivers and Windows safely
-- Reducing startup clutter and choosing sensible performance settings
-- Maintaining a stable system over time
+- protect your files before changing anything
+- install windows from official media
+- update drivers and core components
+- tune the parts that make a real difference
+- keep everything clean over time
 
-## what it does not do
+## no nonsense
 
-This is not a “debloat at all costs” checklist. It avoids registry cleaners, mystery scripts, modified Windows images, and tweaks that break Windows Update, security, or everyday features.
+no registry cleaners, mystery scripts, or modified windows images. every step should be clear, useful, and easy to undo.
 
-## recommended path
+## follow this order
 
 1. [before you begin](guide/before-you-begin) — protect your files and make a recovery plan.
 2. [clean install](guide/clean-install) — start fresh when it makes sense.
 3. [drivers and updates](guide/drivers-and-updates) — get the foundations right.
-4. [optimization](guide/optimization) — make practical, low-risk improvements.
-5. [maintenance](guide/maintenance) — keep the gains without constant tweaking.
+4. [runtimes and components](guide/runtime-components) — install common game and app dependencies.
+5. [optimization](guide/optimization) — make practical, low-risk improvements.
+6. [maintenance](guide/maintenance) — keep the gains without constant tweaking.

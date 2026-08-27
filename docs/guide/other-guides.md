@@ -30,10 +30,6 @@ useful guides, wikis, and projects for when your next rabbit hole is not windows
 
 - Torrent and direct-download links for games and related dependencies.
 
-### 📁 [Porn Dude](https://theporndude.com/) • NSFW
-
-- An adult-site directory. Use appropriate filtering and discretion.
-
 ### 📁 [Ripped](https://ripped.guide/)
 
 - Community-endorsed websites and tools for games and software.

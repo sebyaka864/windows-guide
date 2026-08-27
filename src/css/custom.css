@@ -30,7 +30,12 @@
 
 body {
   text-transform: lowercase;
-  background: var(--ifm-background-color);
+  background: #050507;
+}
+
+html,
+.main-wrapper {
+  background: #050507;
 }
 
 .navbar {

@@ -37,7 +37,7 @@ html,
 
 .navbar {
   background: #1b1b1f;
-  border-bottom: 1px solid #403248;
+  border-bottom: 1px solid #303035;
   box-shadow: 0 0.35rem 1.8rem rgba(0, 0, 0, 0.2);
 }
 
@@ -175,7 +175,7 @@ body.docs-doc-id-intro .main-wrapper::before {
 }
 
 .scrollProgress span {
-  background: #1b1b1f;
+  background: #8b5fb8;
   display: block;
   height: 100%;
   transform-origin: left center;

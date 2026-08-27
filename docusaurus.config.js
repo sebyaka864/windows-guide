@@ -54,16 +54,6 @@ const config = {
       title: 'the windows guide',
       logo: { alt: 'the windows guide logo', src: 'img/logo.svg' },
       items: [
-        {
-          to: '/intro',
-          label: 'start here',
-          position: 'left',
-        },
-        {
-          href: 'https://github.com/sebyaka864/windows-guide',
-          label: 'github',
-          position: 'right',
-        },
       ],
     },
     footer: {

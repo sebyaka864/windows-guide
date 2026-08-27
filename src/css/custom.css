@@ -85,12 +85,16 @@ body {
   }
 }
 
+.footer {
+  color: #8d8d95;
+}
+
 .docMainContainer {
   background: transparent;
 }
 
 .theme-doc-markdown {
-  background: rgba(14, 14, 17, 0.96);
+  background: #1b1b1f;
   border: 1px solid #2d2d33;
   border-radius: 0.85rem;
   box-shadow: 0 1.2rem 3.5rem rgba(0, 0, 0, 0.17);
@@ -147,13 +151,13 @@ body.docs-doc-id-intro .main-wrapper::before {
 .scrollProgress {
   background: #202025;
   height: 3px;
-  inset: 0 0 auto;
+  inset: var(--ifm-navbar-height) 0 auto;
   position: fixed;
   z-index: 1000;
 }
 
 .scrollProgress span {
-  background: #8f8f99;
+  background: #8b5fb8;
   display: block;
   height: 100%;
   transform-origin: left center;

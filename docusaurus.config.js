@@ -45,7 +45,10 @@ const config = {
   ],
 
   themeConfig: {
-    colorMode: { respectPrefersColorScheme: true },
+    colorMode: {
+      defaultMode: 'dark',
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: 'the windows guide',
       logo: { alt: 'the windows guide logo', src: 'img/logo.svg' },

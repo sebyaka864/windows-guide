@@ -11,17 +11,17 @@ export default function Home() {
       <main className={styles.heroBanner}>
         <div className={styles.grid} />
         <section className={styles.heroContent}>
-          <p className={styles.eyebrow}>windows, without the noise</p>
+          <p className={styles.eyebrow}>clear steps. real results.</p>
           <h1>the windows guide</h1>
           <p className={styles.lede}>
-            a practical path to a clean, fast, and dependable pc — with every change explained and easy to undo.
+            make windows feel clean, quick, and yours — without risky scripts, fake tweaks, or unnecessary noise.
           </p>
           <div className={styles.buttons}>
             <Link className="button button--primary button--lg" to="/intro">
-              start the guide
+              begin here
             </Link>
             <Link className="button button--outline button--secondary button--lg" to="/guide/before-you-begin">
-              before you begin
+              get prepared
             </Link>
           </div>
           <div className={styles.steps}>

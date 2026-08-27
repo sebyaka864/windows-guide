@@ -18,7 +18,7 @@ finish windows and microsoft store updates first. restart if asked, then continu
 
 ## install microsoft visual c++ redistributables
 
-Open **Command Prompt** and paste the following command. It installs supported x86 and x64 Visual C++ redistributables with winget.
+Most games, tools, and older applications need the Microsoft Visual C++ Redistributables. Open **Command Prompt** and paste the following command. It installs supported x86 and x64 packages with the official Windows package manager, **Winget**.
 
 ```bat
 winget install --id=Microsoft.VCRedist.2005.x86 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2005.x64 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2008.x86 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2008.x64 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2010.x86 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2010.x64 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2012.x86 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2012.x64 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2013.x86 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2013.x64 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2015+.x86 -e --force -h --accept-package-agreements && winget install --id=Microsoft.VCRedist.2015+.x64 -e --force -h --accept-package-agreements

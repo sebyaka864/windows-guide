@@ -157,7 +157,7 @@ body.docs-doc-id-intro .main-wrapper::before {
 }
 
 .scrollProgress {
-  background: #1b1b1f;
+  background: #0b0b0e;
   height: 5px;
   inset: var(--ifm-navbar-height) 0 auto;
   position: fixed;

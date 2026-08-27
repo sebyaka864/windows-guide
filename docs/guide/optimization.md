@@ -21,3 +21,14 @@ On a laptop, **Balanced** is usually the right default. Use a higher-performance
 ## keep security features on
 
 Do not disable Microsoft Defender, the firewall, Windows Update, memory protections, or User Account Control just to claim a performance gain. The small potential benefit is rarely worth the loss of protection.
+
+## turn off mouse acceleration when you need consistent aim
+
+Windows calls mouse acceleration **Enhance pointer precision**. It changes cursor travel based on how quickly you move the mouse, which can make pointer movement less predictable in games, design work, or other tasks that need consistent muscle memory.
+
+1. Open **Settings → Bluetooth & devices → Mouse**.
+2. Select **Additional mouse settings**.
+3. Open the **Pointer Options** tab.
+4. Clear **Enhance pointer precision**, then select **Apply**.
+
+This is preference-dependent: leave it enabled if you prefer acceleration for everyday desktop navigation.

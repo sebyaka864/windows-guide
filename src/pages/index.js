@@ -20,7 +20,7 @@ export default function Home() {
         <section className={styles.heroContent}>
           <h1>the windows guide</h1>
           <Link className={`button button--primary button--lg ${styles.beginButton}`} to="/intro">
-            begin here
+            start
           </Link>
         </section>
       </main>

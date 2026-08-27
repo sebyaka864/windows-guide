@@ -69,7 +69,7 @@
 .heroContent {
   width: min(100%, 48rem);
   position: relative;
-  text-align: left;
+  text-align: center;
 }
 
 .heroContent h1 {
@@ -78,6 +78,8 @@
   line-height: 0.9;
   margin: 0;
   max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @keyframes backgroundDrift {

@@ -5,7 +5,7 @@
   padding: 6rem 1.5rem;
   position: relative;
   overflow: hidden;
-  background: radial-gradient(circle at 75% 15%, var(--guide-glow), transparent 32rem),
+  background: radial-gradient(circle at 72% 18%, var(--guide-glow), transparent 35rem),
     linear-gradient(135deg, var(--guide-hero-start) 0%, var(--guide-hero-end) 100%);
   background-size: 140% 140%;
   background-attachment: fixed;
@@ -16,7 +16,7 @@
 .grid {
   position: absolute;
   inset: 0;
-  opacity: 0.22;
+  opacity: 0.13;
   background-image: linear-gradient(var(--guide-grid) 1px, transparent 1px),
     linear-gradient(90deg, var(--guide-grid) 1px, transparent 1px);
   background-size: 3.5rem 3.5rem;
@@ -25,7 +25,7 @@
 }
 
 .heroContent {
-  width: min(100%, 56rem);
+  width: min(100%, 48rem);
   position: relative;
   text-align: left;
 }
@@ -47,7 +47,7 @@
 }
 
 .lede {
-  max-width: 42rem;
+  max-width: 34rem;
   color: var(--guide-hero-muted);
   font-size: clamp(1.1rem, 2vw, 1.35rem);
   line-height: 1.6;
@@ -82,26 +82,11 @@
   }
 }
 
-.steps {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  margin-top: 4.5rem;
-  color: var(--guide-step);
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-}
-
 @media screen and (max-width: 600px) {
   .heroBanner {
     padding: 4rem 1.5rem;
   }
 
-  .steps {
-    margin-top: 3rem;
-    gap: 1rem;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {

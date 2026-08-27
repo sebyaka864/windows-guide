@@ -53,7 +53,7 @@ html,
 }
 
 .theme-doc-sidebar-container {
-  background: #09090c;
+  background: #1b1b1f;
   border-right: 1px solid #28282d;
 }
 
@@ -156,6 +156,22 @@ body.docs-doc-id-intro .main-wrapper::before {
 .button--outline.button--secondary {
   color: var(--ifm-font-color-base);
   border-color: currentColor;
+}
+
+.scrollProgress {
+  background: #202025;
+  height: 3px;
+  inset: var(--ifm-navbar-height) 0 auto;
+  position: fixed;
+  z-index: 1000;
+}
+
+.scrollProgress span {
+  background: #8b5fb8;
+  display: block;
+  height: 100%;
+  transform-origin: left center;
+  transition: transform 100ms linear;
 }
 
 @media (prefers-reduced-motion: reduce) {

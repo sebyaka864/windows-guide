@@ -7,13 +7,18 @@ const config = {
   tagline: 'Your all-in-one Windows optimization guide',
   favicon: 'img/logo.svg',
 
-  url: 'http://localhost:3000', // dev URL
-  baseUrl: '/',                 // serve docs at root
+  url: 'https://sebyaka864.github.io',
+  baseUrl: '/windows-guide/',
   organizationName: 'sebyaka864',
   projectName: 'windows-guide',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  trailingSlash: false,
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
+  },
 
   i18n: {
     defaultLocale: 'en',
@@ -26,7 +31,7 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',  // docs at root
+          routeBasePath: '/',
           showLastUpdateTime: false,
           showLastUpdateAuthor: false,
           editUrl: undefined,
@@ -46,7 +51,7 @@ const config = {
       logo: { alt: 'Windows Guide Logo', src: 'img/logo.svg' },
       items: [
         {
-          href: 'https://github.com/sebyaka864',
+          href: 'https://github.com/sebyaka864/windows-guide',
           label: 'GitHub',
           position: 'right',
         },

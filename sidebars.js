@@ -1,13 +1,16 @@
 module.exports = {
-  tutorialSidebar: [
+  guideSidebar: [
     {
       type: 'category',
-      label: 'Windows Guide',
+      label: 'The Windows Guide',
       collapsed: false,
       items: [
+        'intro',
+        'guide/before-you-begin',
         'guide/clean-install',
-        'guide/download-windows',
+        'guide/drivers-and-updates',
         'guide/optimization',
+        'guide/maintenance',
       ],
     },
   ],

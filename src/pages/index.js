@@ -12,8 +12,8 @@ export default function Home() {
         <h1>Windows Guide</h1>
         <p>Your all-in-one Windows optimization guide.</p>
         <div className={styles.buttons}>
-          <Link className="button button--primary button--lg" to="/guide/clean-install">
-            Start Guide
+          <Link className="button button--primary button--lg" to="/intro">
+            Read the guide
           </Link>
         </div>
       </main>

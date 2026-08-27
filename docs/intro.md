@@ -39,4 +39,3 @@ For changes beyond this guide's normal steps, create a restore point first. It g
 3. [drivers and updates](guide/drivers-and-updates) — get the foundations right.
 4. [runtimes and components](guide/runtime-components) — install common game and app dependencies.
 5. [optimization](guide/optimization) — make practical, low-risk improvements.
-6. [maintenance](guide/maintenance) — keep the gains without constant tweaking.

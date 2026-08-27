@@ -27,9 +27,15 @@ export default function Home() {
       title="the windows guide"
       description="a calm, practical windows optimization guide">
       <main className={styles.heroBanner}>
+        <div className={styles.matrixRain} aria-hidden="true">
+          {['01 10 11 00 10 01 11 00 01 10 11 00', '10 01 00 11 01 10 00 11 10 01 00 11', '11 00 10 01 00 11 10 01 11 00 10 01', '00 11 01 10 11 00 01 10 00 11 01 10', '01 01 10 00 11 10 01 00 10 11 00 01', '10 11 00 01 00 10 11 01 01 00 10 11', '00 10 11 01 10 00 01 11 00 10 11 01', '11 01 00 10 01 11 00 10 11 01 00 10', '10 00 01 11 11 00 10 01 00 11 10 01', '01 11 10 00 10 01 11 00 01 10 11 00', '00 01 11 10 01 00 10 11 10 01 00 11', '11 10 01 00 00 11 10 01 11 00 10 01'].map((column, index) => (
+            <span key={index} style={{ '--matrix-delay': `${index * -1.7}s`, '--matrix-duration': `${12 + (index % 4) * 3}s` }}>
+              {column}
+            </span>
+          ))}
+        </div>
         <div className={styles.grid} />
         <section className={styles.heroContent}>
-          <p className={styles.eyebrow}>less clutter. more control.</p>
           <h1>the windows guide</h1>
           <p className={styles.lede}>
             make your pc feel fresh again — clean setup, useful updates, and changes that actually matter.
@@ -37,9 +43,6 @@ export default function Home() {
           <div className={styles.buttons}>
             <Link className="button button--primary button--lg" to="/intro">
               begin here
-            </Link>
-            <Link className="button button--outline button--secondary button--lg" to="/guide/maintenance">
-              maintenance checklist
             </Link>
           </div>
 

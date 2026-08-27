@@ -12,7 +12,6 @@ module.exports = {
         'guide/drivers-and-updates',
         'guide/runtime-components',
         'guide/optimization',
-        'guide/maintenance',
       ],
     },
     {

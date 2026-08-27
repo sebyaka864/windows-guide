@@ -1,27 +1,27 @@
 :root {
-  --ifm-color-primary: #c084fc;
-  --ifm-color-primary-dark: #a855f7;
-  --ifm-color-primary-darker: #9333ea;
-  --ifm-color-primary-darkest: #7e22ce;
-  --ifm-color-primary-light: #d8b4fe;
-  --ifm-color-primary-lighter: #e9d5ff;
-  --ifm-color-primary-lightest: #f3e8ff;
-  --ifm-background-color: #100d14;
-  --ifm-background-surface-color: #1d1724;
+  --ifm-color-primary: #b8b8c2;
+  --ifm-color-primary-dark: #9696a1;
+  --ifm-color-primary-darker: #7d7d88;
+  --ifm-color-primary-darkest: #65656f;
+  --ifm-color-primary-light: #d0d0d6;
+  --ifm-color-primary-lighter: #e4e4e8;
+  --ifm-color-primary-lightest: #f3f3f5;
+  --ifm-background-color: #050507;
+  --ifm-background-surface-color: #111113;
   --ifm-font-color-base: #f4eff8;
-  --ifm-navbar-background-color: #201927;
-  --ifm-footer-background-color: #100d14;
+  --ifm-navbar-background-color: #09090c;
+  --ifm-footer-background-color: #050507;
   --ifm-menu-color: #cfc5d9;
-  --ifm-menu-color-active: #e9d5ff;
-  --ifm-toc-border-color: #3a3043;
-  --ifm-code-background: #17121c;
-  --guide-hero-start: #100d14;
-  --guide-hero-end: #241536;
-  --guide-grid: rgba(205, 166, 255, 0.12);
-  --guide-glow: rgba(168, 85, 247, 0.34);
+  --ifm-menu-color-active: #e4e4e8;
+  --ifm-toc-border-color: #303035;
+  --ifm-code-background: #151518;
+  --guide-hero-start: #050507;
+  --guide-hero-end: #0d0914;
+  --guide-grid: rgba(168, 85, 247, 0.16);
+  --guide-glow: rgba(126, 34, 206, 0.18);
   --guide-hero-text: #fbf8ff;
   --guide-hero-muted: #c9bdd4;
-  --guide-eyebrow: #d8b4fe;
+  --guide-eyebrow: #c8c8cf;
   --guide-step: #c3b3cf;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.06);
@@ -49,8 +49,8 @@ body {
 }
 
 .theme-doc-sidebar-container {
-  background: #18121e;
-  border-right: 1px solid #372b40;
+  background: #09090c;
+  border-right: 1px solid #28282d;
 }
 
 .theme-doc-sidebar-menu {
@@ -63,7 +63,7 @@ body {
 }
 
 .menu__list-item-collapsible {
-  color: #a995b8;
+  color: #a7a7ae;
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -71,16 +71,18 @@ body {
 }
 
 .menu__link--active:not(.menu__link--sublist) {
-  background: #352344;
+  background: #242428;
   box-shadow: inset 0.18rem 0 0 var(--ifm-color-primary);
 }
 
 .menu__link:hover {
-  background: #271d31;
+  background: #1b1b1f;
 }
 
-[class*='collapseSidebarButton'] {
-  display: none;
+@media screen and (min-width: 997px) {
+  [class*='collapseSidebarButton'] {
+    display: none;
+  }
 }
 
 .docMainContainer {
@@ -88,8 +90,8 @@ body {
 }
 
 .theme-doc-markdown {
-  background: rgba(29, 23, 36, 0.92);
-  border: 1px solid #392c45;
+  background: rgba(14, 14, 17, 0.96);
+  border: 1px solid #2d2d33;
   border-radius: 0.85rem;
   box-shadow: 0 1.2rem 3.5rem rgba(0, 0, 0, 0.17);
   padding: clamp(1.3rem, 3vw, 2.5rem);
@@ -102,7 +104,7 @@ body {
 }
 
 .theme-doc-toc-desktop {
-  border-left: 1px solid #3a3043;
+  border-left: 1px solid #303035;
 }
 
 .table-of-contents__link--active {
@@ -116,11 +118,9 @@ body.docs-doc-id-intro .main-wrapper {
 
 body.docs-doc-id-intro .main-wrapper::before {
   background:
-    radial-gradient(circle at 16% 24%, rgba(192, 132, 252, 0.25), transparent 23rem),
-    radial-gradient(circle at 78% 12%, rgba(109, 40, 217, 0.3), transparent 28rem),
-    repeating-linear-gradient(118deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 4rem),
-    linear-gradient(135deg, #120c18, #241037 52%, #100d14);
-  background-size: 130% 130%, 140% 140%, 6rem 6rem, 100% 100%;
+    repeating-linear-gradient(118deg, rgba(255, 255, 255, 0.025) 0 1px, transparent 1px 4rem),
+    linear-gradient(135deg, #050507, #111116 52%, #050507);
+  background-size: 6rem 6rem, 100% 100%;
   content: '';
   inset: 0;
   pointer-events: none;
@@ -131,17 +131,33 @@ body.docs-doc-id-intro .main-wrapper::before {
 
 @keyframes introWallpaper {
   from {
-    background-position: 0% 0%, 100% 0%, 0 0, 0 0;
+    background-position: 0 0, 0 0;
   }
 
   to {
-    background-position: 100% 100%, 0% 100%, 6rem 6rem, 0 0;
+    background-position: 6rem 6rem, 0 0;
   }
 }
 
 .button--primary {
   border: 0;
   box-shadow: 0 0.5rem 1.5rem rgba(124, 58, 237, 0.26);
+}
+
+.scrollProgress {
+  background: #202025;
+  height: 3px;
+  inset: 0 0 auto;
+  position: fixed;
+  z-index: 1000;
+}
+
+.scrollProgress span {
+  background: #8f8f99;
+  display: block;
+  height: 100%;
+  transform-origin: left center;
+  transition: transform 100ms linear;
 }
 
 .button--outline.button--secondary {

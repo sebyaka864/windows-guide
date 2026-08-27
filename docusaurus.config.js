@@ -60,11 +60,6 @@ const config = {
           position: 'left',
         },
         {
-          to: '/guide/maintenance',
-          label: 'maintenance',
-          position: 'left',
-        },
-        {
           href: 'https://github.com/sebyaka864/windows-guide',
           label: 'github',
           position: 'right',

@@ -13,6 +13,30 @@
   color: var(--guide-hero-text);
 }
 
+.matrixRain {
+  position: absolute;
+  inset: -20% 0 0;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  opacity: 0.26;
+  color: #a855f7;
+  font: 700 0.75rem/1.8 ui-monospace, SFMono-Regular, Consolas, monospace;
+  text-shadow: 0 0 0.6rem rgba(168, 85, 247, 0.8);
+  pointer-events: none;
+}
+
+.matrixRain span {
+  writing-mode: vertical-rl;
+  white-space: pre;
+  animation: matrixScroll var(--matrix-duration) linear var(--matrix-delay) infinite;
+}
+
+@keyframes matrixScroll {
+  from { transform: translateY(-35%); }
+  to { transform: translateY(130%); }
+}
+
 .grid {
   position: absolute;
   inset: 0;
@@ -137,7 +161,8 @@
 
 @media (prefers-reduced-motion: reduce) {
   .heroBanner,
-  .grid {
+  .grid,
+  .matrixRain span {
     animation: none;
   }
 }

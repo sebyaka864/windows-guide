@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
 export default function Home() {
@@ -18,6 +19,9 @@ export default function Home() {
         <div className={styles.grid} />
         <section className={styles.heroContent}>
           <h1>the windows guide</h1>
+          <Link className="button button--primary button--lg" to="/intro">
+            begin here
+          </Link>
         </section>
       </main>
     </Layout>

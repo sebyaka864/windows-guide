@@ -20,7 +20,6 @@
   --guide-grid: rgba(168, 85, 247, 0.16);
   --guide-glow: rgba(126, 34, 206, 0.18);
   --guide-hero-text: #fbf8ff;
-  --guide-hero-muted: #c9bdd4;
   --guide-eyebrow: #c8c8cf;
   --guide-step: #c3b3cf;
   --ifm-code-font-size: 95%;
@@ -91,7 +90,8 @@ html,
 }
 
 .footer {
-  color: #8d8d95;
+  background: #09090c;
+  color: #ffffff;
 }
 
 .docMainContainer {
@@ -151,22 +151,6 @@ body.docs-doc-id-intro .main-wrapper::before {
 .button--primary {
   border: 0;
   box-shadow: 0 0.5rem 1.5rem rgba(124, 58, 237, 0.26);
-}
-
-.scrollProgress {
-  background: #202025;
-  height: 3px;
-  inset: var(--ifm-navbar-height) 0 auto;
-  position: fixed;
-  z-index: 1000;
-}
-
-.scrollProgress span {
-  background: #8b5fb8;
-  display: block;
-  height: 100%;
-  transform-origin: left center;
-  transition: transform 100ms linear;
 }
 
 .button--outline.button--secondary {

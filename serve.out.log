@@ -1,0 +1,5 @@
+
+> windows-guide@1.0.0 serve
+> docusaurus serve --host 127.0.0.1
+
+[SUCCESS] Serving "build" directory at: http://127.0.0.1:3000/windows-guide/

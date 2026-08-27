@@ -1,5 +1,6 @@
 {
-  "name": "optimize-project",
+  "name": "windows-guide",
+  "description": "A safety-first guide to a clean, fast, and dependable Windows PC.",
   "version": "1.0.0",
   "private": true,
   "scripts": {

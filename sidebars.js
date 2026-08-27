@@ -1,12 +1,24 @@
 module.exports = {
   guideSidebar: [
-    'intro',
-    'guide/before-you-begin',
-    'guide/clean-install',
-    'guide/drivers-and-updates',
-    'guide/runtime-components',
-    'guide/optimization',
-    'guide/maintenance',
-    'guide/other-guides',
+    {
+      type: 'category',
+      label: 'get started',
+      items: ['intro', 'guide/before-you-begin', 'guide/clean-install'],
+    },
+    {
+      type: 'category',
+      label: 'build a solid setup',
+      items: [
+        'guide/drivers-and-updates',
+        'guide/runtime-components',
+        'guide/optimization',
+        'guide/maintenance',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'more resources',
+      items: ['guide/other-guides'],
+    },
   ],
 };

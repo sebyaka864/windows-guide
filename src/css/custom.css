@@ -1,56 +1,31 @@
 :root {
-  --ifm-color-primary: #7c3aed;
-  --ifm-color-primary-dark: #6d28d9;
-  --ifm-color-primary-darker: #6525cc;
-  --ifm-color-primary-darkest: #521fa8;
-  --ifm-color-primary-light: #8b5cf6;
-  --ifm-color-primary-lighter: #9b72f8;
-  --ifm-color-primary-lightest: #bda5fb;
-  --ifm-background-color: #ffffff;
-  --ifm-background-surface-color: #f7f5fa;
-  --ifm-font-color-base: #18131f;
-  --ifm-navbar-background-color: rgba(255, 255, 255, 0.92);
-  --ifm-footer-background-color: #17121e;
-  --guide-hero-start: #fbfaff;
-  --guide-hero-end: #eee9f8;
-  --guide-grid: rgba(86, 49, 143, 0.11);
-  --guide-glow: rgba(124, 58, 237, 0.2);
-  --guide-hero-text: #17121e;
-  --guide-hero-muted: #5c526b;
-  --guide-eyebrow: #6d28d9;
-  --guide-step: #665a73;
+  --ifm-color-primary: #c084fc;
+  --ifm-color-primary-dark: #a855f7;
+  --ifm-color-primary-darker: #9333ea;
+  --ifm-color-primary-darkest: #7e22ce;
+  --ifm-color-primary-light: #d8b4fe;
+  --ifm-color-primary-lighter: #e9d5ff;
+  --ifm-color-primary-lightest: #f3e8ff;
+  --ifm-background-color: #100d14;
+  --ifm-background-surface-color: #1d1724;
+  --ifm-font-color-base: #f4eff8;
+  --ifm-navbar-background-color: #201927;
+  --ifm-footer-background-color: #100d14;
+  --ifm-menu-color: #cfc5d9;
+  --ifm-menu-color-active: #e9d5ff;
+  --ifm-toc-border-color: #3a3043;
+  --ifm-code-background: #17121c;
+  --guide-hero-start: #100d14;
+  --guide-hero-end: #241536;
+  --guide-grid: rgba(205, 166, 255, 0.12);
+  --guide-glow: rgba(168, 85, 247, 0.34);
+  --guide-hero-text: #fbf8ff;
+  --guide-hero-muted: #c9bdd4;
+  --guide-eyebrow: #d8b4fe;
+  --guide-step: #c3b3cf;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.06);
   --ifm-font-family-base: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-}
-
-[data-theme='dark'] {
-  --ifm-color-primary: #b47aff;
-  --ifm-color-primary-dark: #9e54fa;
-  --ifm-color-primary-darker: #923cf8;
-  --ifm-color-primary-darkest: #7416da;
-  --ifm-color-primary-light: #c79bff;
-  --ifm-color-primary-lighter: #d1adff;
-  --ifm-color-primary-lightest: #e6d1ff;
-  --ifm-background-color: #09070d;
-  --ifm-background-surface-color: #110d16;
-  --ifm-font-color-base: #f4eff9;
-  --ifm-navbar-background-color: rgba(9, 7, 13, 0.92);
-  --ifm-footer-background-color: #060508;
-  --guide-hero-start: #08060c;
-  --guide-hero-end: #180d22;
-  --guide-grid: rgba(202, 166, 255, 0.11);
-  --guide-glow: rgba(157, 78, 221, 0.31);
-  --guide-hero-text: #faf7ff;
-  --guide-hero-muted: #c8bdd4;
-  --guide-eyebrow: #c9a4ff;
-  --guide-step: #aa9bb8;
-  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);
-}
-
-[data-theme='dark'] .navbar,
-[data-theme='dark'] .footer {
-  color: var(--ifm-font-color-base);
 }
 
 body {
@@ -59,8 +34,109 @@ body {
 }
 
 .navbar {
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
-  backdrop-filter: blur(14px);
+  border-bottom: 1px solid #403248;
+  box-shadow: 0 0.35rem 1.8rem rgba(0, 0, 0, 0.2);
+}
+
+.navbar__brand,
+.navbar__link {
+  font-weight: 700;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: var(--ifm-color-primary-lightest);
+}
+
+.theme-doc-sidebar-container {
+  background: #18121e;
+  border-right: 1px solid #372b40;
+}
+
+.theme-doc-sidebar-menu {
+  padding: 1.1rem 0.65rem 2rem;
+}
+
+.menu__list-item-collapsible,
+.menu__link {
+  border-radius: 0.4rem;
+}
+
+.menu__list-item-collapsible {
+  color: #a995b8;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin-top: 1rem;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: #352344;
+  box-shadow: inset 0.18rem 0 0 var(--ifm-color-primary);
+}
+
+.menu__link:hover {
+  background: #271d31;
+}
+
+[class*='collapseSidebarButton'] {
+  display: none;
+}
+
+.docMainContainer {
+  background: transparent;
+}
+
+.theme-doc-markdown {
+  background: rgba(29, 23, 36, 0.92);
+  border: 1px solid #392c45;
+  border-radius: 0.85rem;
+  box-shadow: 0 1.2rem 3.5rem rgba(0, 0, 0, 0.17);
+  padding: clamp(1.3rem, 3vw, 2.5rem);
+}
+
+.theme-doc-markdown h1,
+.theme-doc-markdown h2,
+.theme-doc-markdown h3 {
+  color: #fffaff;
+}
+
+.theme-doc-toc-desktop {
+  border-left: 1px solid #3a3043;
+}
+
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary-light);
+}
+
+body.docs-doc-id-intro .main-wrapper {
+  isolation: isolate;
+  position: relative;
+}
+
+body.docs-doc-id-intro .main-wrapper::before {
+  background:
+    radial-gradient(circle at 16% 24%, rgba(192, 132, 252, 0.25), transparent 23rem),
+    radial-gradient(circle at 78% 12%, rgba(109, 40, 217, 0.3), transparent 28rem),
+    repeating-linear-gradient(118deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 4rem),
+    linear-gradient(135deg, #120c18, #241037 52%, #100d14);
+  background-size: 130% 130%, 140% 140%, 6rem 6rem, 100% 100%;
+  content: '';
+  inset: 0;
+  pointer-events: none;
+  position: fixed;
+  z-index: -1;
+  animation: introWallpaper 34s ease-in-out infinite alternate;
+}
+
+@keyframes introWallpaper {
+  from {
+    background-position: 0% 0%, 100% 0%, 0 0, 0 0;
+  }
+
+  to {
+    background-position: 100% 100%, 0% 100%, 6rem 6rem, 0 0;
+  }
 }
 
 .button--primary {
@@ -73,6 +149,8 @@ body {
   border-color: currentColor;
 }
 
-.theme-doc-sidebar-menu {
-  padding-top: 1rem;
+@media (prefers-reduced-motion: reduce) {
+  body.docs-doc-id-intro .main-wrapper::before {
+    animation: none;
+  }
 }

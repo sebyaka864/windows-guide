@@ -48,11 +48,22 @@ const config = {
     colorMode: {
       defaultMode: 'dark',
       respectPrefersColorScheme: false,
+      disableSwitch: true,
     },
     navbar: {
       title: 'the windows guide',
       logo: { alt: 'the windows guide logo', src: 'img/logo.svg' },
       items: [
+        {
+          to: '/intro',
+          label: 'start here',
+          position: 'left',
+        },
+        {
+          to: '/guide/maintenance',
+          label: 'maintenance',
+          position: 'left',
+        },
         {
           href: 'https://github.com/sebyaka864/windows-guide',
           label: 'github',

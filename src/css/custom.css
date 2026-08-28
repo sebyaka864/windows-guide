@@ -188,10 +188,14 @@ html,
 
 .theme-doc-markdown {
   background: #1b1b1f;
-  border: 1px solid #2d2d33;
+  border: 0;
   border-radius: 0.85rem;
   box-shadow: 0 1.2rem 3.5rem rgba(0, 0, 0, 0.17);
   padding: clamp(1.3rem, 3vw, 2.5rem);
+}
+
+.docMainContainer .container {
+  padding-top: 0.5rem !important;
 }
 
 .theme-doc-markdown h1,
@@ -317,9 +321,9 @@ html,
   border-radius: 4px;
   display: block !important;
   margin: 0 0.5rem 0 0.25rem;
-  max-width: 170px;
-  min-width: 160px;
-  padding: 0.65rem 0.75rem;
+  max-width: 190px;
+  min-width: 190px;
+  padding: 0.75rem 0.4rem 1rem;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
   animation: tocFadeIn 420ms ease both;
 }

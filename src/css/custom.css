@@ -258,6 +258,10 @@ html,
   display: inline-flex !important;
 }
 
+.downloadChoices .button.button--secondary.button--outline {
+  display: inline-flex !important;
+}
+
 .installChoices .button,
 .downloadChoices .button {
   -webkit-appearance: none;

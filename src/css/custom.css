@@ -208,18 +208,49 @@ html,
 }
 
 .installChoices {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   margin: 1.5rem 0 2rem;
 }
 
 .installChoices .button {
   align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-height: 5.75rem;
+  padding: 1.1rem 1.35rem;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.installChoices .button::after {
+  color: #b079e8;
+  content: '→';
+  font-size: 1.35rem;
+  font-weight: 400;
+  margin-left: 1rem;
+  transition: transform 180ms ease;
+}
+
+.installChoices .button:hover::after,
+.installChoices .button:focus-visible::after {
+  transform: translateX(0.2rem);
+}
+
+@media screen and (max-width: 650px) {
+  .installChoices {
+    grid-template-columns: 1fr;
+  }
+}
+
+.installChoices .button,
+.downloadChoices .button {
+  align-items: center;
   flex: 1 1 18rem;
-  justify-content: center;
-  min-height: 5.5rem;
-  text-align: center;
+  justify-content: space-between;
+  text-align: left;
   white-space: normal;
 }
 

@@ -12,7 +12,7 @@ export default function Root({ children }) {
   }, [pathname]);
 
   useEffect(() => {
-    const sidebar = document.querySelector('.theme-doc-sidebar-container');
+    const sidebar = document.querySelector('.theme-doc-sidebar-menu');
     if (!sidebar) return undefined;
 
     const keepSidebarScroll = (event) => {

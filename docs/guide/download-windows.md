@@ -14,7 +14,7 @@ Your files are backed up and ready. Choose the version that fits your computer, 
 
 ## which one should i choose?
 
-- **Windows 11** is for newer supported PCs and current driver and security features.
+- **Windows 11** is the better pick if your PC has more than 8 GB of RAM and supported modern hardware.
 - **Windows 10** is for older hardware, legacy drivers, or software that is not ready for Windows 11.
 
 Both paths include the matching download, Rufus steps, and a link to continue with setup.

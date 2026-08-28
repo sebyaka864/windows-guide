@@ -36,3 +36,10 @@ Enterprise editions expose the Group Policy controls needed to reduce Windows di
 :::warning keep security updates enabled
 Telemetry settings are separate from Windows Update. Keep security updates and Defender protections enabled, and review policies again after a major feature update.
 :::
+
+## disable bing search
+
+1. Open **Edit Group Policy**.
+2. Go to **Computer Configuration → Administrative Templates → Windows Components → Search**.
+3. Open **Don't search the web or display web results in Search**.
+4. Select **Enabled**, then select **Apply** and **OK**.

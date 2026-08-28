@@ -308,6 +308,7 @@ html,
 }
 
 .theme-doc-toc-desktop {
+  display: none !important;
   border-left: 1px solid #303035;
 }
 

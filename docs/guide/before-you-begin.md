@@ -26,17 +26,10 @@ Write down the apps you actually use and any non-default hardware settings. Rein
 
 Open **Settings → System → Activation** and note whether Windows is activated and which edition you use (for example, Home or Pro). A digital license normally reactivates after reinstalling the same edition on the same device.
 
-## create a recovery option
+## ready to continue?
 
-Keep a Windows installation USB and make sure you can sign in to your Microsoft account if you use one. Do not start a clean install until your backup has been checked from another device.
-
-## choose windows 10 or windows 11
-
-Choose the path that matches your hardware and software needs. Both options use an ISO and Rufus to create the installation USB.
+Once your backup is complete and you have checked that it can be restored, continue to the Windows download page.
 
 <div className="installChoices">
-  <a className="button button--primary button--lg" href="/install-windows-11/">Windows 11</a>
-  <a className="button button--secondary button--outline button--lg" href="/install-windows-10/">Windows 10</a>
+  <a className="button button--primary button--lg" href="/download-windows/">I'm ready</a>
 </div>
-
-Choose a path to continue. The next page contains the matching ISO, Rufus instructions, and setup notes.

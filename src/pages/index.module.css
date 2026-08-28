@@ -6,7 +6,8 @@
   position: relative;
   overflow: hidden;
   background: radial-gradient(circle at 72% 18%, var(--guide-glow), transparent 35rem),
-    linear-gradient(135deg, var(--guide-hero-start) 0%, var(--guide-hero-end) 100%);
+    radial-gradient(circle at 18% 78%, rgba(91, 33, 182, 0.13), transparent 32rem),
+    linear-gradient(125deg, #050507 0%, #0c0b11 34%, #111019 63%, #050507 100%);
   background-size: 140% 140%;
   background-attachment: fixed;
   animation: backgroundDrift 75s ease-in-out infinite alternate;
@@ -75,8 +76,9 @@
   position: absolute;
   inset: 0;
   opacity: 0.13;
-  background-image: linear-gradient(var(--guide-grid) 1px, transparent 1px),
-    linear-gradient(90deg, var(--guide-grid) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(168, 85, 247, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.08) 1px, transparent 1px),
+    radial-gradient(circle at 50% 45%, rgba(168, 85, 247, 0.12), transparent 52%);
   background-size: 3.5rem 3.5rem;
   mask-image: linear-gradient(to bottom, black, transparent 85%);
   animation: gridDrift 90s linear infinite;

@@ -229,11 +229,13 @@ html,
 
 .installChoices .button,
 .downloadChoices .button {
-  background: #242428;
-  border: 1px solid #44444c;
+  -webkit-appearance: none;
+  appearance: none;
+  background: linear-gradient(135deg, #34343b 0%, #25252b 48%, #1c1c21 100%) !important;
+  border: 1px solid #555560 !important;
   border-radius: 0.55rem;
-  box-shadow: none;
-  color: #f4f4f6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 0.55rem 1.4rem rgba(0, 0, 0, 0.22);
+  color: #f4f4f6 !important;
   font-weight: 650;
   letter-spacing: 0.01em;
   transition: background 180ms ease, border-color 180ms ease, transform 180ms ease;
@@ -241,17 +243,17 @@ html,
 
 .installChoices .button--primary,
 .downloadChoices .button--primary {
-  background: #303036;
-  border-color: #777782;
+  background: linear-gradient(135deg, #4a4654 0%, #34313e 46%, #24242b 100%) !important;
+  border-color: #888392 !important;
 }
 
 .installChoices .button:hover,
 .installChoices .button:focus-visible,
 .downloadChoices .button:hover,
 .downloadChoices .button:focus-visible {
-  background: #3a3a42;
-  border-color: #a855f7;
-  box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.2);
+  background: linear-gradient(135deg, #514b5e 0%, #3d3948 46%, #2b2932 100%) !important;
+  border-color: #b079e8 !important;
+  box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.2), 0 0.7rem 1.8rem rgba(0, 0, 0, 0.28);
   transform: translateY(-1px);
 }
 

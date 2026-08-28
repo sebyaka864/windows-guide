@@ -214,6 +214,15 @@ html,
   margin: 1.5rem 0 2rem;
 }
 
+.installChoices .button {
+  align-items: center;
+  flex: 1 1 18rem;
+  justify-content: center;
+  min-height: 5.5rem;
+  text-align: center;
+  white-space: normal;
+}
+
 .installChoices .button.button--secondary.button--outline {
   display: inline-flex !important;
 }

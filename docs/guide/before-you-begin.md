@@ -35,13 +35,13 @@ Keep a Windows installation USB and make sure you can sign in to your Microsoft 
 Choose the path that matches your hardware and software needs. Both options use an ISO and Rufus to create the installation USB.
 
 <div className="installChoices">
-  <a className="button button--primary button--lg" href="#windows-11">I want to install Windows 11</a>
-  <a className="button button--secondary button--outline button--lg" href="#windows-10">I want to install Windows 10</a>
+  <a className="button button--primary button--lg" href="https://buzzheavier.com/k1g5we7lqkw9" target="_blank" rel="noopener noreferrer">I want to install Windows 11</a>
+  <a className="button button--secondary button--outline button--lg" href="https://buzzheavier.com/5eerq83cpgwi" target="_blank" rel="noopener noreferrer">I want to install Windows 10</a>
 </div>
 
 ### windows 11
 
-Windows 11 is the right choice for newer PCs that meet its hardware requirements, especially if you want the newest features, security baseline, and driver support. Download the ISO from [Microsoft's Windows 11 download page](https://www.microsoft.com/software-download/windows11), then use Rufus to write it to a USB drive.
+Windows 11 is the right choice for newer PCs that meet its hardware requirements, especially if you want the newest features, security baseline, and driver support. Use the Windows 11 download button above, or use the [alternate Windows 11 download](https://buzzheavier.com/2gtemvaqgfm3), then use Rufus to write the ISO to a USB drive.
 
 ### why enterprise?
 
@@ -49,11 +49,11 @@ Enterprise editions expose additional Group Policy settings for administrators. 
 
 ### windows 10
 
-Windows 10 is the better fit for older hardware, legacy drivers, or software that has not been tested on Windows 11. Download the ISO from [Microsoft's Windows 10 download page](https://www.microsoft.com/software-download/windows10), then use Rufus to create the installation USB. Check the support and update situation before committing to a long-term installation.
+Windows 10 is the better fit for older hardware, legacy drivers, or software that has not been tested on Windows 11. Use the Windows 10 download button above to get the ISO, then use Rufus to create the installation USB. Check the support and update situation before committing to a long-term installation.
 
 ### create the usb with rufus
 
-1. Download the ISO for the Windows version you chose.
+1. Download the ISO using the Windows 11 or Windows 10 button above.
 2. Download Rufus from its [official website](https://rufus.ie/).
 3. Connect an empty USB drive (8 GB or larger) and open Rufus.
 4. Select the USB drive, choose the ISO, and keep the recommended partition settings unless your PC documentation says otherwise.

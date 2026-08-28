@@ -202,6 +202,11 @@ html,
   display: none;
 }
 
+.breadcrumbs__link,
+.button.button--secondary.button--outline {
+  display: none !important;
+}
+
 .theme-doc-toc-desktop {
   border-left: 1px solid #303035;
 }

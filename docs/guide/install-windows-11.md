@@ -12,13 +12,13 @@ Windows 11 is the best fit when your PC has more than 8 GB of RAM and modern har
 Choose the regular release or LTSC. LTSC is intended for systems that need a minimal, long-term servicing setup; the regular release is the better default for most PCs.
 
 <div className="downloadChoices">
-  <a className="button button--primary button--lg" href="https://buzzheavier.com/k1g5we7lqkw9" target="_blank" rel="noopener noreferrer">Windows 11</a>
-  <a className="button button--secondary button--outline button--lg" href="https://buzzheavier.com/2gtemvaqgfm3" target="_blank" rel="noopener noreferrer">Windows 11 LTSC</a>
+  <a className="button button--primary button--lg" href="https://buzzheavier.com/k1g5we7lqkw9" target="_blank" rel="noopener noreferrer">Windows 11 — regular</a>
+  <a className="button button--secondary button--outline button--lg" href="https://buzzheavier.com/2gtemvaqgfm3" target="_blank" rel="noopener noreferrer">Windows 11 — LTSC</a>
 </div>
 
 ## write the usb with rufus
 
-1. Download [Rufus from its official website](https://rufus.ie/).
+1. Download [Rufus from its official website](https://rufus.ie/) or use the [direct Rufus 4.15 mirror](https://github.com/pbatard/rufus/releases/download/v4.15/rufus-4.15.exe).
 2. Connect an empty USB drive with at least 8 GB of space.
 3. Select the USB drive and the Windows 11 ISO in Rufus.
 4. In **Image option**, keep the standard Windows installation option unless you specifically need an unsupported-hardware install.

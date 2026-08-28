@@ -19,7 +19,7 @@ This download is **Windows 10 IoT Enterprise 22H2**. Windows 10 LTSC is not reco
 
 ## write the usb with rufus
 
-1. Download [Rufus from its official website](https://rufus.ie/).
+1. Download [Rufus from its official website](https://rufus.ie/) or use the [direct Rufus 4.15 mirror](https://github.com/pbatard/rufus/releases/download/v4.15/rufus-4.15.exe).
 2. Connect an empty USB drive with at least 8 GB of space.
 3. Select the USB drive and the Windows 10 ISO in Rufus.
 4. Keep the recommended settings, then start the write process. Everything on the USB will be erased.

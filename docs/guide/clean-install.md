@@ -30,4 +30,4 @@ For a truly fresh installation, choose **Custom installation**. Identify the sys
 
 ## 4. complete first-run setup
 
-After Windows starts, connect to the internet, install updates, and continue with [Drivers and updates](drivers-and-updates). Install applications from their official publishers or trusted stores only.
+After Windows starts, connect to the internet, install updates, and continue with [Drivers and updates](/drivers-and-updates/). Install applications from their official publishers or trusted stores only.

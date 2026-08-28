@@ -35,29 +35,8 @@ Keep a Windows installation USB and make sure you can sign in to your Microsoft 
 Choose the path that matches your hardware and software needs. Both options use an ISO and Rufus to create the installation USB.
 
 <div className="installChoices">
-  <a className="button button--primary button--lg" href="https://buzzheavier.com/k1g5we7lqkw9" target="_blank" rel="noopener noreferrer">I want to install Windows 11</a>
-  <a className="button button--secondary button--outline button--lg" href="https://buzzheavier.com/5eerq83cpgwi" target="_blank" rel="noopener noreferrer">I want to install Windows 10</a>
+  <a className="button button--primary button--lg" href="/install-windows-11">I want to install Windows 11</a>
+  <a className="button button--secondary button--outline button--lg" href="/install-windows-10">I want to install Windows 10</a>
 </div>
 
-### windows 11
-
-Windows 11 is the right choice for newer PCs that meet its hardware requirements, especially if you want the newest features, security baseline, and driver support. Use the Windows 11 download button above, or use the [alternate Windows 11 download](https://buzzheavier.com/2gtemvaqgfm3), then use Rufus to write the ISO to a USB drive.
-
-### why enterprise?
-
-Enterprise editions expose additional Group Policy settings for administrators. That gives you much finer control over telemetry and diagnostic-data policies than Home, and more control than a typical Pro setup. It does not make every form of data collection disappear, so review each policy and keep security updates enabled.
-
-### windows 10
-
-Windows 10 is the better fit for older hardware, legacy drivers, or software that has not been tested on Windows 11. Use the Windows 10 download button above to get the ISO, then use Rufus to create the installation USB. Check the support and update situation before committing to a long-term installation.
-
-### create the usb with rufus
-
-1. Download the ISO using the Windows 11 or Windows 10 button above.
-2. Download Rufus from its [official website](https://rufus.ie/).
-3. Connect an empty USB drive (8 GB or larger) and open Rufus.
-4. Select the USB drive, choose the ISO, and keep the recommended partition settings unless your PC documentation says otherwise.
-5. Start the write process, confirming that you understand the USB will be erased.
-6. Safely eject the USB when Rufus finishes, then continue to [clean install](/setup).
-
-Whichever version you choose, install the same edition already linked to your device's digital license when possible (for example, Home or Pro). That gives Windows the best chance of activating automatically after setup.
+Choose a path to continue. The next page contains the matching ISO, Rufus instructions, and setup notes.

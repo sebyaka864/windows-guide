@@ -198,6 +198,10 @@ html,
   color: #fffaff;
 }
 
+.theme-doc-breadcrumbs {
+  display: none;
+}
+
 .theme-doc-toc-desktop {
   border-left: 1px solid #303035;
 }

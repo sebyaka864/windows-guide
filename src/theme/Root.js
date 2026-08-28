@@ -7,6 +7,11 @@ export default function Root({ children }) {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
+    if ('scrollRestoration' in window.history) window.history.scrollRestoration = 'manual';
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }, [pathname]);
+
+  useEffect(() => {
     if (isHome) return undefined;
 
     const updateProgress = () => {

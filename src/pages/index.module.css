@@ -81,6 +81,7 @@
   width: min(100%, 48rem);
   position: relative;
   text-align: center;
+  margin-top: -10vh;
   animation: fadeInUp 700ms 100ms ease both;
 }
 
@@ -117,6 +118,10 @@
 @media screen and (max-width: 600px) {
   .heroBanner {
     padding: 4rem 1.5rem;
+  }
+
+  .heroContent {
+    margin-top: -4vh;
   }
 
 }

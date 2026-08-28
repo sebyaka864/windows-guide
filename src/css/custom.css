@@ -36,6 +36,19 @@ html,
   background: #050507;
 }
 
+.main-wrapper,
+.theme-doc-sidebar-container,
+.theme-doc-markdown,
+.theme-doc-toc-desktop,
+.footer {
+  animation: siteFadeIn 500ms ease both;
+}
+
+@keyframes siteFadeIn {
+  from { opacity: 0; transform: translateY(0.35rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 .navbar {
   background: #1b1b1f;
   border-bottom: 1px solid #303035;
@@ -184,6 +197,14 @@ body.docs-doc-id-intro .main-wrapper::before {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .main-wrapper,
+  .theme-doc-sidebar-container,
+  .theme-doc-markdown,
+  .theme-doc-toc-desktop,
+  .footer {
+    animation: none;
+  }
+
   body.docs-doc-id-intro .main-wrapper::before {
     animation: none;
   }

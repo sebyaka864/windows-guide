@@ -19,12 +19,14 @@
   display: flex;
   justify-content: space-around;
   overflow: hidden;
-  opacity: 0.26;
+  opacity: 0.3;
   color: #a855f7;
   font: 700 0.75rem/1.8 ui-monospace, SFMono-Regular, Consolas, monospace;
   text-shadow: 0 0 0.6rem rgba(168, 85, 247, 0.8);
   pointer-events: none;
   animation: fadeIn 900ms ease both;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent), linear-gradient(to bottom, transparent, black 12%, black 88%, transparent);
+  mask-composite: intersect;
 }
 
 .matrixRain span {
@@ -32,11 +34,14 @@
   white-space: pre;
   animation: matrixScroll var(--matrix-duration) linear var(--matrix-delay) infinite;
   filter: drop-shadow(0 0 0.45rem rgba(168, 85, 247, 0.7));
+  min-width: 2.2rem;
 }
 
 .matrixRain span:nth-child(3n) { opacity: 0.55; }
 .matrixRain span:nth-child(3n + 1) { opacity: 0.8; }
 .matrixRain span:nth-child(4n) { letter-spacing: 0.16em; }
+.matrixRain span:nth-child(5n) { font-size: 0.62rem; opacity: 0.45; }
+.matrixRain span:nth-child(7n) { font-size: 0.9rem; opacity: 0.68; }
 
 .beginButton {
   border: 1px solid #b8b8c2;

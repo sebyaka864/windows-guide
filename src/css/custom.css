@@ -227,6 +227,34 @@ html,
   display: inline-flex !important;
 }
 
+.installChoices .button,
+.downloadChoices .button {
+  background: #242428;
+  border: 1px solid #44444c;
+  border-radius: 0.55rem;
+  box-shadow: none;
+  color: #f4f4f6;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  transition: background 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.installChoices .button--primary,
+.downloadChoices .button--primary {
+  background: #303036;
+  border-color: #777782;
+}
+
+.installChoices .button:hover,
+.installChoices .button:focus-visible,
+.downloadChoices .button:hover,
+.downloadChoices .button:focus-visible {
+  background: #3a3a42;
+  border-color: #a855f7;
+  box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.2);
+  transform: translateY(-1px);
+}
+
 .downloadChoices {
   display: flex;
   flex-wrap: wrap;

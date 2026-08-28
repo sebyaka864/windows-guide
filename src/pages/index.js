@@ -19,7 +19,7 @@ export default function Home() {
         <div className={styles.grid} />
         <section className={styles.heroContent}>
           <h1>the windows guide</h1>
-          <Link className={`button button--primary button--lg ${styles.beginButton}`} to="/intro">
+          <Link className={`button button--primary button--lg ${styles.beginButton}`} to="/introduction">
             start
           </Link>
         </section>

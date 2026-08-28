@@ -8,7 +8,7 @@ const config = {
   favicon: 'img/logo.svg',
 
   url: 'https://sebyaka864.github.io',
-  baseUrl: '/windows-guide/',
+  baseUrl: '/',
   organizationName: 'sebyaka864',
   projectName: 'windows-guide',
 

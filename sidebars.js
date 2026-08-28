@@ -1,11 +1,16 @@
 module.exports = {
   guideSidebar: [
+    { type: 'link', label: 'home', href: '/' },
     {
       type: 'category',
       label: 'get started',
       collapsible: false,
       collapsed: false,
-      items: ['intro', 'guide/before-you-begin', 'guide/clean-install'],
+      items: [
+        { type: 'doc', id: 'intro', label: 'introduction' },
+        { type: 'doc', id: 'guide/before-you-begin', label: 'before you begin' },
+        { type: 'doc', id: 'guide/clean-install', label: 'setup' },
+      ],
     },
     {
       type: 'category',

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+slug: /drivers-and-updates
 ---
 
 # drivers and updates

@@ -3,7 +3,7 @@ import { useLocation } from '@docusaurus/router';
 
 export default function Root({ children }) {
   const { pathname } = useLocation();
-  const isHome = pathname.replace(/\/$/, '') === '/windows-guide';
+  const isHome = pathname === '/';
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {

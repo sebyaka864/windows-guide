@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+slug: /introduction
 ---
 
 # start here
@@ -24,9 +25,9 @@ no registry cleaners, mystery scripts, or modified windows images. every step sh
 
 ## choose your path
 
-- **new pc or starting over?** begin with [before you begin](guide/before-you-begin), then [clean install](guide/clean-install).
-- **pc mostly works but feels slow?** start with [drivers and updates](guide/drivers-and-updates), then make the small changes in [optimization](guide/optimization).
-- **one app or game will not open?** read [runtimes and components](guide/runtime-components) and install only the dependency the app actually needs.
+- **new pc or starting over?** begin with [before you begin](/before-you-begin), then [setup](/setup).
+- **pc mostly works but feels slow?** start with [drivers and updates](/drivers-and-updates), then make the small changes in [optimization](/optimization).
+- **one app or game will not open?** read [runtimes and components](/runtime-components) and install only the dependency the app actually needs.
 
 :::tip make a restore point before experimenting
 For changes beyond this guide's normal steps, create a restore point first. It gives you a simple exit when a driver, setting, or utility does not behave as expected.
@@ -34,8 +35,8 @@ For changes beyond this guide's normal steps, create a restore point first. It g
 
 ## follow this order
 
-1. [before you begin](guide/before-you-begin) — protect your files and make a recovery plan.
-2. [clean install](guide/clean-install) — start fresh when it makes sense.
-3. [drivers and updates](guide/drivers-and-updates) — get the foundations right.
-4. [runtimes and components](guide/runtime-components) — install common game and app dependencies.
-5. [optimization](guide/optimization) — make practical, low-risk improvements.
+1. [before you begin](/before-you-begin) — protect your files and make a recovery plan.
+2. [setup](/setup) — start fresh when it makes sense.
+3. [drivers and updates](/drivers-and-updates) — get the foundations right.
+4. [runtimes and components](/runtime-components) — install common game and app dependencies.
+5. [optimization](/optimization) — make practical, low-risk improvements.

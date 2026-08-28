@@ -307,6 +307,11 @@ html,
   border-left: 1px solid #303035;
 }
 
+.pagination-nav,
+.theme-edit-this-page {
+  display: none !important;
+}
+
 .table-of-contents__link--active {
   color: var(--ifm-color-primary-light);
 }

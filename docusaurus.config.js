@@ -13,7 +13,7 @@ const config = {
   projectName: 'windows-guide',
 
   onBrokenLinks: 'throw',
-  trailingSlash: false,
+  trailingSlash: true,
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'throw',

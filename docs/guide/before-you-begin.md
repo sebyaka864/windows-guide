@@ -35,8 +35,8 @@ Keep a Windows installation USB and make sure you can sign in to your Microsoft 
 Choose the path that matches your hardware and software needs. Both options use an ISO and Rufus to create the installation USB.
 
 <div className="installChoices">
-  <a className="button button--primary button--lg" href="/install-windows-11">I want to install Windows 11</a>
-  <a className="button button--secondary button--outline button--lg" href="/install-windows-10">I want to install Windows 10</a>
+  <a className="button button--primary button--lg" href="/install-windows-11/">I want to install Windows 11</a>
+  <a className="button button--secondary button--outline button--lg" href="/install-windows-10/">I want to install Windows 10</a>
 </div>
 
 Choose a path to continue. The next page contains the matching ISO, Rufus instructions, and setup notes.

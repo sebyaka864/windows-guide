@@ -24,6 +24,7 @@
   font: 700 0.75rem/1.8 ui-monospace, SFMono-Regular, Consolas, monospace;
   text-shadow: 0 0 0.6rem rgba(168, 85, 247, 0.8);
   pointer-events: none;
+  animation: fadeIn 900ms ease both;
 }
 
 .matrixRain span {
@@ -55,6 +56,16 @@
   to { transform: translateY(130%); }
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 0.26; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(0.8rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 .grid {
   position: absolute;
   inset: 0;
@@ -70,6 +81,7 @@
   width: min(100%, 48rem);
   position: relative;
   text-align: center;
+  animation: fadeInUp 700ms 100ms ease both;
 }
 
 .heroContent h1 {
@@ -112,7 +124,9 @@
 @media (prefers-reduced-motion: reduce) {
   .heroBanner,
   .grid,
-  .matrixRain span {
+  .matrixRain,
+  .matrixRain span,
+  .heroContent {
     animation: none;
   }
 }

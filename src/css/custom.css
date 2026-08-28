@@ -308,8 +308,37 @@ html,
 }
 
 .theme-doc-toc-desktop {
-  display: none !important;
-  border-left: 1px solid #303035;
+  align-self: flex-start;
+  background: #1b1b1f;
+  border: 1px solid #2d2d33;
+  border-left: 1px solid #2d2d33;
+  border-radius: 4px;
+  display: block !important;
+  margin: 0.75rem 0.5rem 0 0.25rem;
+  max-width: 170px;
+  padding: 0.65rem 0.75rem;
+  animation: tocFadeIn 420ms ease both;
+}
+
+@keyframes tocFadeIn {
+  from { opacity: 0; transform: translateX(0.35rem); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.theme-doc-toc-desktop .table-of-contents {
+  font-size: 0.78rem;
+  line-height: 1.35;
+  max-height: 58vh;
+  overflow-y: auto;
+}
+
+.theme-doc-toc-desktop .table-of-contents__link {
+  color: #cfcfd6;
+}
+
+.theme-doc-toc-desktop .table-of-contents__link:hover,
+.theme-doc-toc-desktop .table-of-contents__link--active {
+  color: #b079e8;
 }
 
 .pagination-nav,
@@ -381,6 +410,10 @@ body.docs-doc-id-intro .main-wrapper::before {
   .theme-doc-markdown,
   .theme-doc-toc-desktop,
   .footer {
+    animation: none;
+  }
+
+  .theme-doc-toc-desktop {
     animation: none;
   }
 

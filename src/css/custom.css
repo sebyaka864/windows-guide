@@ -135,13 +135,15 @@ html,
   }
 
   .theme-doc-sidebar-container {
+    background: transparent;
+    border-right: 0;
     min-width: 220px;
-    width: 220px;
     padding: 0.75rem;
+    width: 220px;
   }
 
   .theme-doc-sidebar-menu {
-    background: #202524;
+    background: #2b2b2b;
     border-radius: 4px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
     height: calc(100vh - var(--ifm-navbar-height) - 1.5rem);

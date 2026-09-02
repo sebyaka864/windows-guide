@@ -210,24 +210,24 @@ html,
   color: #fffaff;
 }
 
-body.docs-doc-id-intro .theme-doc-markdown {
+html.docs-doc-id-intro .theme-doc-markdown {
   background: transparent;
   box-shadow: none;
   padding-top: 0;
 }
 
-body.docs-doc-id-intro .theme-doc-markdown > h1 {
+html.docs-doc-id-intro .theme-doc-markdown > h1 {
   margin-top: 0;
 }
 
-body.docs-doc-id-intro .introWarning {
+html.docs-doc-id-intro .introWarning {
   color: #f06a6a;
   font-size: 0.95rem;
   line-height: 1.55;
   margin: 0 0 0.85rem;
 }
 
-body.docs-doc-id-intro .introWarning strong {
+html.docs-doc-id-intro .introWarning strong {
   color: #ff4f5e;
   display: block;
   font-size: 1rem;
@@ -235,7 +235,7 @@ body.docs-doc-id-intro .introWarning strong {
   margin-bottom: 0.25rem;
 }
 
-body.docs-doc-id-intro .introBody {
+html.docs-doc-id-intro .introBody {
   background: #1b1b1f;
   border-radius: 0.85rem;
   box-shadow: 0 1.2rem 3.5rem rgba(0, 0, 0, 0.17);
@@ -414,12 +414,12 @@ body.docs-doc-id-intro .introBody {
   color: var(--ifm-color-primary-light);
 }
 
-body.docs-doc-id-intro .main-wrapper {
+html.docs-doc-id-intro .main-wrapper {
   isolation: isolate;
   position: relative;
 }
 
-body.docs-doc-id-intro .main-wrapper::before {
+html.docs-doc-id-intro .main-wrapper::before {
   background:
     repeating-linear-gradient(118deg, rgba(255, 255, 255, 0.025) 0 1px, transparent 1px 4rem),
     linear-gradient(135deg, #050507, #111116 52%, #050507);
@@ -490,7 +490,8 @@ body.docs-doc-id-intro .main-wrapper::before {
     transition: none;
   }
 
-  body.docs-doc-id-intro .main-wrapper::before {
+  html.docs-doc-id-intro .main-wrapper::before {
     animation: none;
   }
 }
+

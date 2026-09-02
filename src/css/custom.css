@@ -390,16 +390,10 @@ body.docs-doc-id-intro .main-wrapper::before {
 
 .scrollProgress {
   background: #1b1b1f;
-  border: 0;
-  border-radius: 999px;
-  box-shadow: none;
-  height: 4px;
-  left: 0;
-  outline: 0;
+  height: 5px;
+  inset: var(--ifm-navbar-height) 0 auto;
   pointer-events: none;
   position: fixed;
-  right: 0;
-  top: calc(var(--ifm-navbar-height) + 0.35rem);
   z-index: 1000;
 }
 

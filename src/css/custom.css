@@ -92,6 +92,10 @@ html,
   border-right: 1px solid #28282d;
 }
 
+.theme-doc-sidebar-menu {
+  padding: 0.5rem 0.65rem;
+}
+
 .menu__list-item-collapsible,
 .menu__link {
   border-radius: 0.4rem;

@@ -134,12 +134,21 @@ html,
 }
 
 .menu__link--active:not(.menu__link--sublist) {
-  background: #242428;
-  box-shadow: inset 0.18rem 0 0 var(--ifm-color-primary);
+  background: #28202f;
+  box-shadow: inset 0.18rem 0 0 #a855f7;
+  color: #ffffff;
 }
 
 .menu__link:hover {
-  background: #1b1b1f;
+  background: #24202a;
+  color: #d8b4fe;
+  text-decoration: none;
+}
+
+.menu__link:focus-visible {
+  background: #2b2433;
+  box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.45);
+  color: #ffffff;
 }
 
 @media screen and (min-width: 997px) {
@@ -152,6 +161,10 @@ html,
   background: #1b1b1f;
   color: #ffffff;
   padding: 1rem 0;
+}
+
+.footer {
+  display: none;
 }
 
 .footer__copyright {
@@ -379,6 +392,7 @@ body.docs-doc-id-intro .main-wrapper::before {
   height: 5px;
   inset: var(--ifm-navbar-height) 0 auto;
   position: fixed;
+  pointer-events: none;
   z-index: 1000;
 }
 

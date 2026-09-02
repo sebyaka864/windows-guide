@@ -73,7 +73,7 @@ html,
 
 .navbar {
   background: #1b1b1f;
-  border-bottom: 0;
+  border-bottom: 1px solid #303035;
   box-shadow: 0 0.35rem 1.8rem rgba(0, 0, 0, 0.2);
 }
 

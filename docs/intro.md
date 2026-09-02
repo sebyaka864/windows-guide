@@ -5,18 +5,10 @@ slug: /introduction
 
 # start here
 
-the windows guide is a practical path to a clean, dependable pc. Start with [before you begin](/before-you-begin/) to back up everything important and check that your backup can be restored. From there, choose the Windows version that fits your hardware, install the foundations, and make only the changes that improve everyday use.
+the windows guide is a practical path to a clean, low-telemetry Windows PC that stays stable after updates and remains compatible with the apps, games, and tools that run on regular Windows. When you finish, you should have a responsive system with fewer distractions, predictable behavior, and settings you understand well enough to maintain.
 
-:::important read the whole page
-Every instruction in this guide has a purpose. Read each step before changing a setting, and keep notes of anything you customize.
+It is designed to leave you with a setup that feels intentional: no mystery breakage after an update, no unnecessary background clutter, and no trade-off between privacy, security, and everyday compatibility.
+
+:::important IMPORTANT
+Everything in this guide is written down for a reason. Read **every section** carefully before making changes. You cannot skip paragraphs or instructions and expect the result to work as intended. If a setting is unclear, stop and check it before continuing.
 :::
-
-## the guide
-
-Use these pages as a focused reference, not a checklist of random tweaks:
-
-- protect your files before changing anything
-- install windows from official media
-- update drivers and core components
-- tune the parts that make a real difference
-- keep everything clean over time

@@ -163,14 +163,11 @@ html,
   padding: 1rem 0;
 }
 
-.footer {
-  display: none;
-}
-
 .footer__copyright {
   font-size: 0.72rem;
   opacity: 0.9;
   margin: 0;
+  text-align: center;
 }
 
 .docMainContainer {

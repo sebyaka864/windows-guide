@@ -210,6 +210,24 @@ html,
   color: #fffaff;
 }
 
+body.docs-doc-id-intro .theme-doc-markdown {
+  background: transparent;
+  box-shadow: none;
+  padding-top: 0;
+}
+
+body.docs-doc-id-intro .theme-doc-markdown > h1 {
+  margin-top: 0;
+}
+
+body.docs-doc-id-intro .introBody {
+  background: #1b1b1f;
+  border-radius: 0.85rem;
+  box-shadow: 0 1.2rem 3.5rem rgba(0, 0, 0, 0.17);
+  margin-top: 1rem;
+  padding: clamp(1.3rem, 3vw, 2.5rem);
+}
+
 .theme-doc-breadcrumbs {
   display: none;
 }

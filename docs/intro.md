@@ -3,9 +3,13 @@ sidebar_position: 1
 slug: /introduction
 ---
 
-:::danger IMPORTANT
+<div className="introWarning">
+
+**IMPORTANT**
+
 Everything in this guide is written down for a reason. Read **every section** carefully before making changes. You cannot skip paragraphs or instructions and expect the result to work as intended. If a setting is unclear, stop and check it before continuing.
-:::
+
+</div>
 
 # introduction
 

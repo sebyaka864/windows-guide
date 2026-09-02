@@ -220,6 +220,21 @@ body.docs-doc-id-intro .theme-doc-markdown > h1 {
   margin-top: 0;
 }
 
+body.docs-doc-id-intro .introWarning {
+  color: #f06a6a;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin: 0 0 0.85rem;
+}
+
+body.docs-doc-id-intro .introWarning strong {
+  color: #ff4f5e;
+  display: block;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.25rem;
+}
+
 body.docs-doc-id-intro .introBody {
   background: #1b1b1f;
   border-radius: 0.85rem;

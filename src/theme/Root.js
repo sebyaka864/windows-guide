@@ -12,20 +12,6 @@ export default function Root({ children }) {
   }, [pathname]);
 
   useEffect(() => {
-    const sidebar = document.querySelector('.theme-doc-sidebar-menu');
-    if (!sidebar) return undefined;
-
-    const keepSidebarScroll = (event) => {
-      if (sidebar.scrollHeight <= sidebar.clientHeight) return;
-      event.preventDefault();
-      sidebar.scrollTop += event.deltaY;
-    };
-
-    sidebar.addEventListener('wheel', keepSidebarScroll, { passive: false });
-    return () => sidebar.removeEventListener('wheel', keepSidebarScroll);
-  }, [pathname]);
-
-  useEffect(() => {
     if (isHome) return undefined;
 
     const updateProgress = () => {

@@ -144,13 +144,13 @@ html,
 }
 
 .menu__link:hover {
-  background: #24202a;
-  color: #d8b4fe;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
   text-decoration: none;
 }
 
 .menu__link:focus-visible {
-  background: #2b2433;
+  background: rgba(255, 255, 255, 0.14);
   box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.45);
   color: #ffffff;
 }
@@ -389,7 +389,7 @@ body.docs-doc-id-intro .main-wrapper::before {
 }
 
 .scrollProgress {
-  background: #09090c;
+  background: #1b1b1f;
   height: 5px;
   inset: var(--ifm-navbar-height) 0 auto;
   position: fixed;

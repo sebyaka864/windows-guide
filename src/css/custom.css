@@ -221,10 +221,15 @@ html.docs-doc-id-intro .theme-doc-markdown > h1 {
 }
 
 html.docs-doc-id-intro .introWarning {
-  color: #f06a6a;
+  background: rgba(120, 24, 36, 0.28);
+  border: 1px solid rgba(255, 79, 94, 0.5);
+  border-left: 4px solid #ff4f5e;
+  border-radius: 0.55rem;
+  color: #ffd9dc;
   font-size: 0.95rem;
   line-height: 1.55;
   margin: 0 0 0.85rem;
+  padding: 0.9rem 1rem;
 }
 
 html.docs-doc-id-intro .introWarning strong {

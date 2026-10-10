@@ -34,7 +34,6 @@ const config = {
           routeBasePath: '/',
           showLastUpdateTime: false,
           showLastUpdateAuthor: false,
-          editUrl: 'https://github.com/sebyaka864/windows-guide/edit/main/',
         },
         blog: false,
         theme: {

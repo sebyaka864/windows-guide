@@ -15,7 +15,7 @@ This is the Windows 10 download supplied for the guide.
   <a className="button button--primary button--lg" href="https://buzzheavier.com/5eerq83cpgwi" target="_blank" rel="noopener noreferrer">download windows 10</a>
 </div>
 
-This download is **Windows 10 IoT Enterprise 22H2**. Windows 10 LTSC is not recommended here because the available release is older.
+This download is **Windows 10 IoT Enterprise 22H2**.
 
 ## write the usb with rufus
 

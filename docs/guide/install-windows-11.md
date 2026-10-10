@@ -21,7 +21,7 @@ Windows 11 is the best fit when your PC has more than 8 GB of RAM and modern har
 
    ![rufus main window](/img/rufus/rufus-main.png)
 
-4. when rufus shows customize windows installation, select the following options.
+4. when rufus shows customize windows installation?, select the following options.
 
    ![rufus customize windows installation options](/img/rufus/rufus-customize-options.png)
 

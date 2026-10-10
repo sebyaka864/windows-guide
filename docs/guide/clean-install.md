@@ -5,29 +5,29 @@ slug: /setup
 
 # clean install
 
-A clean install is useful for a new PC, persistent software problems, or a system that has accumulated years of unwanted software. It removes installed apps and, depending on your choices, personal files.
+a clean install is useful for a new pc, persistent software problems, or a system that has accumulated years of unwanted software. it removes installed apps and, depending on your choices, personal files.
 
 :::danger this erases data
-Back up your files first. During setup, verify the target drive before deleting any partition. If you are uncertain, stop and ask for help.
+back up your files first. during setup, verify the target drive before deleting any partition. if you are uncertain, stop and ask for help.
 :::
 
 ## 1. use official installation media
 
-Download the Windows installation media from [Microsoft's Windows download page](https://www.microsoft.com/software-download/). Use the Media Creation Tool or create an installation USB from the official ISO.
+download the windows installation media from [microsoft's windows download page](https://www.microsoft.com/software-download/). use the media creation tool or create an installation usb from the official iso.
 
-Avoid “lite,” pre-activated, or modified Windows images. They make security, support, and future updates less predictable.
+avoid “lite,” pre-activated, or modified windows images. they make security, support, and future updates less predictable.
 
 ## 2. start windows setup
 
-1. Insert the USB drive and boot from it using your PC's boot-menu key.
-2. Select the language and keyboard layout you want.
-3. Choose **Install Windows**.
-4. Enter a product key, or choose the option to activate later if the device has a matching digital license.
+1. insert the usb drive and boot from it using your pc's boot-menu key.
+2. select the language and keyboard layout you want.
+3. choose **install windows**.
+4. enter a product key, or choose the option to activate later if the device has a matching digital license.
 
 ## 3. choose the installation target
 
-For a truly fresh installation, choose **Custom installation**. Identify the system drive carefully, delete only the partitions belonging to the old Windows installation, select the resulting unallocated space, and continue.
+for a truly fresh installation, choose **custom installation**. identify the system drive carefully, delete only the partitions belonging to the old windows installation, select the resulting unallocated space, and continue.
 
 ## 4. complete first-run setup
 
-After Windows starts, connect to the internet, install updates, and continue with [Drivers and updates](/drivers-and-updates/). Install applications from their official publishers or trusted stores only.
+after windows starts, connect to the internet, install updates, and continue with [drivers and updates](https://sebyaka864.github.io/drivers-and-updates/). install applications from their official publishers or trusted stores only.

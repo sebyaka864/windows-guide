@@ -15,13 +15,13 @@ Windows 11 is the best fit when your PC has more than 8 GB of RAM and modern har
 
 ## write the usb with rufus
 
-1. [download rufus](https://rufus.ie/) or use the [official rufus mirror](https://github.com/pbatard/rufus/releases/download/v4.15/rufus-4.15.exe).
+1. [download rufus](https://github.com/pbatard/rufus/releases/download/v4.15/rufus-4.15.exe).
 2. connect an empty usb drive with at least 16 gb of space.
 3. select the usb drive and the windows 11 iso in rufus.
 
    ![rufus main window](/img/rufus/rufus-main.png)
 
-4. when rufus shows the windows user experience dialog, select the following options.
+4. when rufus shows customize windows installation, select the following options.
 
    ![rufus customize windows installation options](/img/rufus/rufus-customize-options.png)
 
@@ -29,7 +29,11 @@ Windows 11 is the best fit when your PC has more than 8 GB of RAM and modern har
 
    ![rufus confirm operation](/img/rufus/rufus-confirm-operation.png)
 
-6. when it finishes, safely eject the usb and continue to [setup](/setup).
+6. when it finishes, safely eject the usb.
+
+<div className="downloadChoices">
+  <a className="button button--primary button--lg" href="/setup">setup</a>
+</div>
 
 ## why enterprise?
 

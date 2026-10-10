@@ -12,24 +12,29 @@ Windows 11 is the best fit when your PC has more than 8 GB of RAM and modern har
 Choose the regular release or LTSC. LTSC is intended for systems that need a minimal, long-term servicing setup; the regular release is the better default for most PCs.
 
 <div className="downloadChoices">
-  <a className="button button--primary button--lg" href="https://buzzheavier.com/k1g5we7lqkw9" target="_blank" rel="noopener noreferrer">Windows 11 — regular</a>
+  <a className="button button--primary button--lg" href="https://buzzheavier.com/k1g5we7lqkw9" target="_blank" rel="noopener noreferrer">en-us_windows_11_iot_enterprise_version_25h2_x64_dvd_67098cd6.iso</a>
   <a className="button button--secondary button--outline button--lg" href="https://buzzheavier.com/2gtemvaqgfm3" target="_blank" rel="noopener noreferrer">Windows 11 — LTSC</a>
 </div>
 
 ## write the usb with rufus
 
-1. Download [Rufus from its official website](https://rufus.ie/) or use the [direct Rufus 4.15 mirror](https://github.com/pbatard/rufus/releases/download/v4.15/rufus-4.15.exe).
-2. Connect an empty USB drive with at least 8 GB of space.
-3. Select the USB drive and the Windows 11 ISO in Rufus.
-4. In **Image option**, keep the standard Windows installation option unless you specifically need an unsupported-hardware install.
-5. When Rufus shows the Windows User Experience dialog, enable **Remove requirement for 4 GB+ RAM, Secure Boot, and TPM 2.0** if your PC does not meet those requirements.
-6. Keep the remaining recommended settings, then start the write process. Everything on the USB will be erased.
-7. When it finishes, safely eject the USB and continue to [setup](/setup).
+1. download [rufus from its official website](https://rufus.ie/) or use the [direct rufus 4.15 mirror](https://github.com/pbatard/rufus/releases/download/v4.15/rufus-4.15.exe).
+2. connect an empty usb drive with at least 16 gb of space.
+3. select the usb drive and the windows 11 iso in rufus.
+
+   ![rufus main window](/img/rufus/rufus-main.png)
+
+4. in **image option**, keep the standard windows installation option unless you specifically need an unsupported-hardware install.
+5. when rufus shows the windows user experience dialog, enable **remove requirement for 4 gb+ ram, secure boot, and tpm 2.0** if your pc does not meet those requirements.
+
+   ![rufus customize windows installation options](/img/rufus/rufus-customize-options.png)
+
+6. keep the remaining recommended settings, then start the write process. everything on the usb will be erased.
+
+   ![rufus confirm operation](/img/rufus/rufus-confirm-operation.png)
+
+7. when it finishes, safely eject the usb and continue to [setup](/setup).
 
 ## why enterprise?
 
 Enterprise editions expose additional Group Policy settings. This gives you finer control over telemetry and diagnostic-data policies than Home, while still keeping security updates available. It does not remove every form of data collection, so review each policy rather than disabling security features blindly.
-
-:::warning check compatibility first
-Windows 11 normally expects TPM 2.0, Secure Boot, UEFI, and at least 4 GB of RAM. IoT Enterprise editions have relaxed hardware requirements and can help on unsupported systems; see the [Windows 11 IoT setup guide](https://massgrave.dev/windows10_eol#windows-11-iot-enterprise-editions). Windows 11 24H2 still requires a CPU with SSE4.2 and POPCNT; there is no bypass for those instructions. Check your CPU on [CPU-World](https://www.cpu-world.com/) before installing.
-:::
